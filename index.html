@@ -5,10 +5,12 @@
     <meta charset="UTF-8">
     <title>Crystal Game</title>
     <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"> -->
-    <!-- <link href="https://fonts.googleapis.com/css?family=Rubik+Mono+One" rel="stylesheet"> -->
+  <link href="https://fonts.googleapis.com/css?family=Rubik+Mono+One" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- <link href="https://fonts.googleapis.com/css?family=Russo+One" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet"> -->
+	<link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Sigmar+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Luckiest+Guy" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.1.1.js"></script>
     <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
@@ -17,14 +19,24 @@
 <body>
 
 <div id = "giantTitle">
-WELCOME TO THE CRYSTAL GAME!
+<img src = "assets/images/soniclogo.png" id = "mylogo" alt = "Sonic the Hedgehog">
+<br>
+<div id = "titlewords">
+CHAOS EMERALD CHALLENGE!
+</div>
 </div>
 <br>
+<div id = "subtitle">
+Do you have what it takes?
+</div>
+
+<br>
 <div id = "instructions">
+<p> Use your math skills to help Sonic harness the power of the Chaos Emeralds and become Super Sonic!</p>
 <p> You will be given a random number at the start of the game. </p>
-<p> There are 4 crystals below. By clicking a crystal you will add a specific amount of points to your total score.</p>
+<p> There are 4 emeralds below. By clicking an emerald you will add a specific amount of points to your total score.</p>
 <p> You win by matching your total score to the random number displayed below. You lose the game if your total score goes above the random number.</p>
-<p> The value of each crystal is hidden from you until you click on it. Each time when the game starts, the game will change the value of each crystal. </p>
+<p> The value of each emerald is hidden from you until you click on it. Each time when the game starts, the game will change the value of each emerald. </p>
 </div>
 <br>
 <div id = "targetNumber">
@@ -32,19 +44,25 @@ Try to match this number:
 </div>
 <br>
 
-<div id = "wins">
+<div id = "winslosses">
 Wins: 0
-</div>
+<!-- </div>
 
-<div id = "losses">
+<div id = "losses"> -->
+<br>
 Losses: 0
 </div>
 <br>
 <div class = "crystals">
-<button type="button" class = "crystalbutton" id = "redcrystal">Red Crystal</button>
+<!-- <button type="button" class = "crystalbutton" id = "redcrystal">Red Crystal</button>
 <button type="button" class = "crystalbutton" id = "yellowcrystal">Yellow Crystal</button>
 <button type="button" class = "crystalbutton" id = "bluecrystal">Blue Crystal</button>
-<button type="button" class = "crystalbutton" id = "greencrystal">Green Crystal</button>
+<button type="button" class = "crystalbutton" id = "greencrystal">Green Crystal</button> -->
+<img src = "assets/images/redemerald2.png" class = "crystalbutton" id = "redcrystal" alt = "Red Emerald">
+<img src = "assets/images/yellowemerald2.png" class = "crystalbutton" id = "yellowcrystal" alt = "Yellow Emerald">
+<img src = "assets/images/blueemerald2.png" class = "crystalbutton" id = "bluecrystal" alt = "Blue Emerald">
+<img src = "assets/images/greenemerald2.png" class = "crystalbutton" id = "greencrystal" alt = "Green Emerald">
+<img src = "assets/images/sonic1.png" id = "sonic" alt = "Sonic">
 
 
 </div>

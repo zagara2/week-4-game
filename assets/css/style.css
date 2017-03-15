@@ -1,0 +1,75 @@
+#titlewords{
+font-family: 'Luckiest Guy', cursive;
+font-size:40px;
+color:white;
+text-shadow: -3px 0 darkred, 0 3px darkred, 3px 0 darkred, 0 -3px darkred;
+background-color: #d50000;
+text-align:center;
+margin-bottom:15px;
+}
+
+#giantTitle img{
+	display:block;
+	margin: 0 auto;
+	
+
+}
+
+#instructions {
+	font-family: 'VT323', monospace;
+	/*font-family: 'Press Start 2P', cursive;*/
+	letter-spacing: 1.5px;
+	font-weight: bold;
+	text-align:center;
+
+}
+
+#subtitle {
+	font-family: 'Luckiest Guy', cursive;
+	font-size:26px;
+	color:gold;
+	/*text-shadow: -.25px 0 yellow, 0 .25px yellow, .25px 0 yellow, 0 -.25px yellow;*/
+	/*letter-spacing:px;*/
+	background-color: midnightblue;
+	text-align:center;
+}
+
+#targetNumber {
+	font-family: 'Luckiest Guy', cursive;
+	color:white;
+text-shadow: -2px 0 darkred, 0 2px darkred, 2px 0 darkred, 0 -2px darkred;
+background-color: #d50000;
+font-size:28px;
+text-align:center;
+}
+
+#winslosses {
+	font-family: 'Luckiest Guy', cursive;
+	border-style: dashed;
+    border-width: 5px;
+	border-color:gold;
+	background-color: midnightblue;
+	color:gold;
+	font-size:24px;
+}
+
+
+
+#playerScore {
+	font-family: 'Luckiest Guy', cursive;
+}
+
+.crystalbutton {
+	max-height:150px;
+	width:auto;
+}
+
+#sonic {
+	max-height:350px;
+	width:auto;
+}
+
+#mylogo {
+	max-height:250px;
+	width:auto;
+}

@@ -70,8 +70,8 @@ function gameEnd() {
     inCurrentRound = false;
     targetNumber = Math.floor((Math.random() * 120) + 19);
     $("#targetNumber").html("Try to match this number: " + targetNumber);
-    $("#wins").html("Wins: " + wins);
-    $("#losses").html("Losses: " + losses);
+    $("#winslosses").html("Wins: " + wins + "<br>" + "Losses: " + losses );
+    // $("#losses").html("Losses: " + losses);
     newValsArray = gemValue();
 
     setAllValues(newValsArray);

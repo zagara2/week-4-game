@@ -264,3 +264,24 @@ text-align:center;
 
 	}
 }
+
+@media screen and (max-width: 600px) {
+	#winslosses {
+		font-size: 12px;
+	}
+
+	#playerScore {
+		font-size:12px;
+	}
+	#sonicpic {
+		max-height:180px;
+		top:30%;
+	left:31%;
+
+	}
+
+	#giantTitle img {
+		max-width:auto;
+		max-height:100px;
+	}
+}

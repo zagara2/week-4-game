@@ -112,8 +112,8 @@ function playGame() {
 
 
     //when each crystal button is clicked, add the corresponding crystal value to the player's score, and check for a win or loss
-    //when win or loss occurs, play special music and display special picture for as many seconds as the sound effect lasts, then automatically start a new game
-    //user will be locked out of clicking the crystals while the special picture and music play
+    //when win or loss occurs, play special music and display special picture for as many seconds as the sound effect lasts, then automatically update wins/losses and start a new game
+    //user will be locked out of clicking the crystals while the special picture and music are going
     $("#redcrystal").on("click", function() {
         if (inCurrentRound === true) {
             playerScore = playerScore + redCrystal;
@@ -124,6 +124,7 @@ function playGame() {
             inCurrentRound = false;
 
             losses++;
+            
             $("#gameOutcome").attr("src", "assets/music/gameover.mp3");
             document.getElementById('gameOutcome').play();
             $("#sonicpic").attr("src", "assets/images/eggman.png");
@@ -136,6 +137,7 @@ function playGame() {
             inCurrentRound = false;
 
             wins++;
+            
             $("#gameOutcome").attr("src", "assets/music/supersonic.mp3");
             document.getElementById('gameOutcome').play();
             $("#sonicpic").attr("src", "assets/images/supersonic2.png");
@@ -155,6 +157,7 @@ function playGame() {
             inCurrentRound = false;
 
             losses++;
+            
             $("#gameOutcome").attr("src", "assets/music/gameover.mp3");
             document.getElementById('gameOutcome').play();
             $("#sonicpic").attr("src", "assets/images/eggman.png");
@@ -166,6 +169,7 @@ function playGame() {
             inCurrentRound = false;
 
             wins++;
+            
             $("#gameOutcome").attr("src", "assets/music/supersonic.mp3");
             document.getElementById('gameOutcome').play();
             $("#sonicpic").attr("src", "assets/images/supersonic2.png");
@@ -187,6 +191,7 @@ function playGame() {
             inCurrentRound = false;
 
             losses++;
+            
             $("#gameOutcome").attr("src", "assets/music/gameover.mp3");
             document.getElementById('gameOutcome').play();
             $("#sonicpic").attr("src", "assets/images/eggman.png");
@@ -198,6 +203,7 @@ function playGame() {
             inCurrentRound = false;
 
             wins++;
+            
             $("#gameOutcome").attr("src", "assets/music/supersonic.mp3");
             document.getElementById('gameOutcome').play();
             $("#sonicpic").attr("src", "assets/images/supersonic2.png");
@@ -219,6 +225,7 @@ function playGame() {
             inCurrentRound = false;
 
             losses++;
+            
             $("#gameOutcome").attr("src", "assets/music/gameover.mp3");
             document.getElementById('gameOutcome').play();
             $("#sonicpic").attr("src", "assets/images/eggman.png");
@@ -229,6 +236,7 @@ function playGame() {
             inCurrentRound = false;
 
             wins++;
+            
             $("#gameOutcome").attr("src", "assets/music/supersonic.mp3");
             document.getElementById('gameOutcome').play();
             $("#sonicpic").attr("src", "assets/images/supersonic2.png");

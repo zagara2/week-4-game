@@ -73,7 +73,7 @@ function gameEnd() {
     
     targetNumber = Math.floor((Math.random() * 120) + 19);
     $("#targetNumber").html("Try to match this number: " + targetNumber);
-    $("#winslosses").html("Wins: " + wins + "<br>" + "Losses: " + losses);
+    //$("#winslosses").html("Wins: " + wins + "<br>" + "Losses: " + losses);
     // $("#sonicpic").html("<img src = 'assets/images/sonic1.png' id = 'sonicpic' alt = 'sonic'>");
     // $("#losses").html("Losses: " + losses);
     $("#sonicpic").attr("src", "assets/images/sonic1.png");
@@ -124,7 +124,8 @@ function playGame() {
             inCurrentRound = false;
 
             losses++;
-            
+            document.getElementById('winslosses').innerHTML = "Wins: " + wins + "<br>" + "Losses: " + losses;
+
             $("#gameOutcome").attr("src", "assets/music/gameover.mp3");
             document.getElementById('gameOutcome').play();
             $("#sonicpic").attr("src", "assets/images/eggman.png");
@@ -137,6 +138,7 @@ function playGame() {
             inCurrentRound = false;
 
             wins++;
+            document.getElementById('winslosses').innerHTML = "Wins: " + wins + "<br>" + "Losses: " + losses;
             
             $("#gameOutcome").attr("src", "assets/music/supersonic.mp3");
             document.getElementById('gameOutcome').play();
@@ -157,6 +159,7 @@ function playGame() {
             inCurrentRound = false;
 
             losses++;
+            document.getElementById('winslosses').innerHTML = "Wins: " + wins + "<br>" + "Losses: " + losses;
             
             $("#gameOutcome").attr("src", "assets/music/gameover.mp3");
             document.getElementById('gameOutcome').play();
@@ -169,6 +172,7 @@ function playGame() {
             inCurrentRound = false;
 
             wins++;
+            document.getElementById('winslosses').innerHTML = "Wins: " + wins + "<br>" + "Losses: " + losses;
             
             $("#gameOutcome").attr("src", "assets/music/supersonic.mp3");
             document.getElementById('gameOutcome').play();
@@ -191,6 +195,7 @@ function playGame() {
             inCurrentRound = false;
 
             losses++;
+            document.getElementById('winslosses').innerHTML = "Wins: " + wins + "<br>" + "Losses: " + losses;
             
             $("#gameOutcome").attr("src", "assets/music/gameover.mp3");
             document.getElementById('gameOutcome').play();
@@ -203,6 +208,7 @@ function playGame() {
             inCurrentRound = false;
 
             wins++;
+            document.getElementById('winslosses').innerHTML = "Wins: " + wins + "<br>" + "Losses: " + losses;
             
             $("#gameOutcome").attr("src", "assets/music/supersonic.mp3");
             document.getElementById('gameOutcome').play();
@@ -225,6 +231,7 @@ function playGame() {
             inCurrentRound = false;
 
             losses++;
+            document.getElementById('winslosses').innerHTML = "Wins: " + wins + "<br>" + "Losses: " + losses;
             
             $("#gameOutcome").attr("src", "assets/music/gameover.mp3");
             document.getElementById('gameOutcome').play();
@@ -236,6 +243,7 @@ function playGame() {
             inCurrentRound = false;
 
             wins++;
+            document.getElementById('winslosses').innerHTML = "Wins: " + wins + "<br>" + "Losses: " + losses;
             
             $("#gameOutcome").attr("src", "assets/music/supersonic.mp3");
             document.getElementById('gameOutcome').play();

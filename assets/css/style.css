@@ -1,3 +1,12 @@
+body {
+	background: url("../images/bg1.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+	
+}
+
+
 #titlewords{
 font-family: 'Luckiest Guy', cursive;
 font-size:40px;
@@ -9,6 +18,8 @@ margin-bottom:15px;
 margin-left:20px;
 margin-right:20px;
 border-radius: 25px;
+padding:3px;
+
 }
 
 #giantTitle img{
@@ -22,9 +33,10 @@ border-radius: 25px;
 	font-family: 'VT323', monospace;
 	/*font-family: 'Press Start 2P', cursive;*/
 	letter-spacing: 1.5px;
-	font-weight: bold;
 	text-align:center;
-
+	color:white;
+	/*font-weight:bold;
+*/
 }
 
 #subtitle {
@@ -38,6 +50,12 @@ border-radius: 25px;
 	margin-left:45px;
 	margin-right:45px;
 	border-radius: 25px;
+	border-style: hidden;
+    border-width: .2px;
+	border-color:gold;
+	padding:3px;
+	/*border-left:hidden;*/
+	/*border-right:hidden;*/
 }
 
 #targetNumber {
@@ -51,15 +69,16 @@ margin-left:20px;
 margin-right:20px;
 border-radius: 25px;
 margin-bottom:15px;
+padding:3px;
 }
 
 #winslosses {
 	font-family: 'Luckiest Guy', cursive;
-	border-style: dashed;
+	border-style: outset;
     border-width: 5px;
-	border-color:gold;
+	border-color:white;
 	background-color: midnightblue;
-	color:gold;
+	color:white;
 	font-size:25px;
 	width:7%;
 	float:left;
@@ -71,17 +90,18 @@ margin-bottom:15px;
 	margin-top:150px;
 	line-height:150%;
 	border-radius: 25px;
+	text-shadow: -2px 0 darkred, 0 2px darkred, 2px 0 darkred, 0 -2px darkred;
 }
 
 
 
 #playerScore {
 	font-family: 'Luckiest Guy', cursive;
-	border-style: dashed;
+	border-style: outset;
     border-width: 5px;
-	border-color:gold;
+	border-color:white;
 	background-color:midnightblue;
-	color:gold;
+	color:white;
 	font-size:25px;
 	/*margin-top:20px;
 	margin-bottom:40px;*/
@@ -95,6 +115,7 @@ margin-bottom:15px;
 	margin-right:40px;
 	line-height:150%;
 	border-radius: 25px;
+	text-shadow: -2px 0 darkred, 0 2px darkred, 2px 0 darkred, 0 -2px darkred;
 }
 
 

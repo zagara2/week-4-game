@@ -66,7 +66,7 @@ function setAllValues(myArray) {
 function gameEnd() {
     console.log("game over");
     playerScore = 0;
-    $("#playerScore").html("Your Total Score: " + playerScore);
+    $("#playerScore").html("Total Score: " + playerScore);
     inCurrentRound = false;
     targetNumber = Math.floor((Math.random() * 120) + 19);
     $("#targetNumber").html("Try to match this number: " + targetNumber);
@@ -83,7 +83,7 @@ function playGame() {
 	newValsArray = gemValue();
 
     setAllValues(newValsArray);
-    $("#playerScore").html("Your Total Score: " + playerScore);
+    $("#playerScore").html("Total Score: " + playerScore);
     $("#targetNumber").html("Try to match this number: " + targetNumber);
 
     // if (inCurrentRound === true) {
@@ -105,7 +105,7 @@ function playGame() {
     //when each crystal button is clicked, add the corresponding crystal value to the player's score, and check for a win or loss
     $("#redcrystal").on("click", function() {
         playerScore = playerScore + redCrystal;
-        $("#playerScore").html("Your Total Score: " + playerScore);
+        $("#playerScore").html("Total Score: " + playerScore);
         if (playerScore > targetNumber) {
 
             losses++;
@@ -120,7 +120,7 @@ function playGame() {
 
     $("#yellowcrystal").on("click", function() {
         playerScore = playerScore + yellowCrystal;
-        $("#playerScore").html("Your Total Score: " + playerScore);
+        $("#playerScore").html("Total Score: " + playerScore);
         if (playerScore > targetNumber) {
 
             losses++;
@@ -137,7 +137,7 @@ function playGame() {
     $("#bluecrystal").on("click", function() {
         playerScore = playerScore + blueCrystal;
 
-        $("#playerScore").html("Your Total Score: " + playerScore);
+        $("#playerScore").html("Total Score: " + playerScore);
         if (playerScore > targetNumber) {
 
             losses++;
@@ -154,7 +154,7 @@ function playGame() {
 
         playerScore = playerScore + greenCrystal;
 
-        $("#playerScore").html("Your Total Score: " + playerScore);
+        $("#playerScore").html("Total Score: " + playerScore);
         if (playerScore > targetNumber) {
 
             losses++;

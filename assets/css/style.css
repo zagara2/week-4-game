@@ -6,6 +6,9 @@ text-shadow: -3px 0 darkred, 0 3px darkred, 3px 0 darkred, 0 -3px darkred;
 background-color: #d50000;
 text-align:center;
 margin-bottom:15px;
+margin-left:20px;
+margin-right:20px;
+border-radius: 25px;
 }
 
 #giantTitle img{
@@ -32,6 +35,9 @@ margin-bottom:15px;
 	/*letter-spacing:px;*/
 	background-color: midnightblue;
 	text-align:center;
+	margin-left:45px;
+	margin-right:45px;
+	border-radius: 25px;
 }
 
 #targetNumber {
@@ -41,6 +47,10 @@ text-shadow: -2px 0 darkred, 0 2px darkred, 2px 0 darkred, 0 -2px darkred;
 background-color: #d50000;
 font-size:28px;
 text-align:center;
+margin-left:20px;
+margin-right:20px;
+border-radius: 25px;
+margin-bottom:15px;
 }
 
 #winslosses {
@@ -50,7 +60,17 @@ text-align:center;
 	border-color:gold;
 	background-color: midnightblue;
 	color:gold;
-	font-size:28px;
+	font-size:25px;
+	width:7%;
+	float:left;
+	padding: 15px;
+	text-align:center;
+	margin-left:40px;
+	padding-top:60px;
+	padding-bottom:60px;
+	margin-top:150px;
+	line-height:150%;
+	border-radius: 25px;
 }
 
 
@@ -59,12 +79,22 @@ text-align:center;
 	font-family: 'Luckiest Guy', cursive;
 	border-style: dashed;
     border-width: 5px;
-	border-color:white;
-	background-color: limegreen;
-	color:white;
-	font-size:28px;
-	margin-top:20px;
-	margin-bottom:40px;
+	border-color:gold;
+	background-color:midnightblue;
+	color:gold;
+	font-size:25px;
+	/*margin-top:20px;
+	margin-bottom:40px;*/
+	width:7%;
+	float:right;
+	padding:15px;
+	text-align: center;
+	padding-top:60px;
+	padding-bottom:60px;
+	margin-top:150px;
+	margin-right:40px;
+	line-height:150%;
+	border-radius: 25px;
 }
 
 
@@ -81,12 +111,13 @@ text-align:center;
 	margin-right:15%;
 	position:relative;
 	height:500px;
+	margin-bottom:40px;
 	
 }
 
 .crystals img {
 	position:absolute;
-	max-height:150px;
+	max-height:450px;
 	width:auto;
 }
 
@@ -119,26 +150,36 @@ left:0;
 #bluecrystal {
 right:0;
 top:0;
+max-height:150px;
+	width:auto;
 }
 
 #greencrystal {
 	right:0;
 	bottom:0;
+	max-height:150px;
+	width:auto;
 }
 
 #sonicpic {
-	max-height:275px;
-	width:auto;
+	
+	max-width:100%;
+	height:auto;
 	/*margin-left:300px;*/
 	/*display:block;
 	margin: 0 auto;*/
-	top:25%;
+	top:8%;
 	left:43%;
+	
 
 
 
 
 
+}
+
+#footer {
+height:10px;
 }
 /*.emeralds img {
 	max-height:150px;

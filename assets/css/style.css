@@ -57,6 +57,12 @@ text-align:center;
 
 #playerScore {
 	font-family: 'Luckiest Guy', cursive;
+	border-style: dashed;
+    border-width: 5px;
+	border-color:white;
+	background-color: limegreen;
+	color:white;
+	font-size:24px;
 }
 
 .crystalbutton {
@@ -73,3 +79,4 @@ text-align:center;
 	max-height:250px;
 	width:auto;
 }
+

@@ -189,3 +189,56 @@ text-align:center;
 	max-height:150px;
 	width:auto;
 }*/
+
+@media screen and (max-width: 1000px) {
+
+	#sonicpic {
+		max-height:300px;
+		top:20%;
+	left:38%;
+
+	}
+
+	#winslosses {
+		font-size: 18px;
+	}
+
+	#playerScore {
+		font-size:18px;
+	}
+
+
+
+	
+		#redcrystal {
+			max-height:75px;
+		}
+
+		#bluecrystal {
+			max-height:75px;
+		}
+
+		#yellowcrystal {
+			max-height:75px;
+		}
+
+		#greencrystal {
+			max-height:75px;
+		}
+	}
+
+@media screen and (max-width: 700px) {
+	#winslosses {
+		font-size: 14px;
+	}
+
+	#playerScore {
+		font-size:14px;
+	}
+	#sonicpic {
+		max-height:300px;
+		top:20%;
+	left:33%;
+
+	}
+}

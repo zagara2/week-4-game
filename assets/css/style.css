@@ -50,7 +50,7 @@ text-align:center;
 	border-color:gold;
 	background-color: midnightblue;
 	color:gold;
-	font-size:24px;
+	font-size:28px;
 }
 
 
@@ -62,21 +62,85 @@ text-align:center;
 	border-color:white;
 	background-color: limegreen;
 	color:white;
-	font-size:24px;
+	font-size:28px;
+	margin-top:20px;
+	margin-bottom:40px;
 }
 
-.crystalbutton {
-	max-height:150px;
-	width:auto;
-}
 
-#sonic {
-	max-height:350px;
-	width:auto;
-}
+
+
 
 #mylogo {
 	max-height:250px;
 	width:auto;
 }
 
+.crystals {
+	margin-left:15%;
+	margin-right:15%;
+	position:relative;
+	height:500px;
+	
+}
+
+.crystals img {
+	position:absolute;
+	max-height:150px;
+	width:auto;
+}
+
+
+#redcrystal {
+	
+	
+	max-height:150px;
+	width:auto;
+	/*float: left;*/
+	position:absolute;
+	top:0;
+	left:0;
+}
+
+#yellowcrystal {
+	position:absolute;
+	max-height:150px;
+	width:auto;
+	/*bottom:10px;
+	left:40%;
+
+*/
+bottom:0;
+left:0;
+
+}
+
+
+#bluecrystal {
+right:0;
+top:0;
+}
+
+#greencrystal {
+	right:0;
+	bottom:0;
+}
+
+#sonicpic {
+	max-height:275px;
+	width:auto;
+	/*margin-left:300px;*/
+	/*display:block;
+	margin: 0 auto;*/
+	top:25%;
+	left:43%;
+
+
+
+
+
+}
+/*.emeralds img {
+	max-height:150px;
+	width:auto;
+}*/

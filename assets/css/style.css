@@ -1,287 +1,256 @@
 body {
-	background-image: url("../images/bg1.png");
-	/*background-repeat: no-repeat;
+    background-image: url("../images/bg1.png");
+    /*background-repeat: no-repeat;
 	background-size: cover;
 	*/
-	
 }
 
-
-#titlewords{
-font-family: 'Luckiest Guy', cursive;
-font-size:40px;
-color:white;
-text-shadow: -3px 0 darkred, 0 3px darkred, 3px 0 darkred, 0 -3px darkred;
-background-color: #d50000;
-text-align:center;
-margin-bottom:15px;
-margin-left:20px;
-margin-right:20px;
-border-radius: 25px;
-padding:3px;
-
+#titlewords {
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 40px;
+    color: white;
+    text-shadow: -3px 0 darkred, 0 3px darkred, 3px 0 darkred, 0 -3px darkred;
+    background-color: #d50000;
+    text-align: center;
+    margin-bottom: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 25px;
+    padding: 3px;
 }
 
-#giantTitle img{
-	display:block;
-	margin: 0 auto;
-	
-
+#giantTitle img {
+    display: block;
+    margin: 0 auto;
 }
 
 #instructions {
-	font-family: 'VT323', monospace;
-	/*font-family: 'Press Start 2P', cursive;*/
-	letter-spacing: 1.5px;
-	text-align:center;
-	color:white;
-	margin-bottom:10px;
-	/*font-weight:bold;
+    font-family: 'VT323', monospace;
+    /*font-family: 'Press Start 2P', cursive;*/
+    letter-spacing: 1.5px;
+    text-align: center;
+    color: white;
+    margin-bottom: 10px;
+    /*font-weight:bold;
 */
 }
 
 #subtitle {
-	font-family: 'Luckiest Guy', cursive;
-	font-size:26px;
-	color:gold;
-	/*text-shadow: -.25px 0 yellow, 0 .25px yellow, .25px 0 yellow, 0 -.25px yellow;*/
-	/*letter-spacing:px;*/
-	background-color: midnightblue;
-	text-align:center;
-	margin-left:45px;
-	margin-right:45px;
-	border-radius: 25px;
-	border-style: hidden;
-   
-	border-color:gold;
-	padding:3px;
-	/*border-left:hidden;*/
-	/*border-right:hidden;*/
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 26px;
+    color: gold;
+    /*text-shadow: -.25px 0 yellow, 0 .25px yellow, .25px 0 yellow, 0 -.25px yellow;*/
+    /*letter-spacing:px;*/
+    background-color: midnightblue;
+    text-align: center;
+    margin-left: 45px;
+    margin-right: 45px;
+    border-radius: 25px;
+    border-style: hidden;
+    border-color: gold;
+    padding: 3px;
+    /*border-left:hidden;*/
+    /*border-right:hidden;*/
 }
 
 #targetNumber {
-	font-family: 'Luckiest Guy', cursive;
-	color:white;
-text-shadow: -2px 0 darkred, 0 2px darkred, 2px 0 darkred, 0 -2px darkred;
-background-color: #d50000;
-font-size:28px;
-text-align:center;
-margin-left:20px;
-margin-right:20px;
-border-radius: 25px;
-margin-bottom:15px;
-padding:3px;
+    font-family: 'Luckiest Guy', cursive;
+    color: white;
+    text-shadow: -2px 0 darkred, 0 2px darkred, 2px 0 darkred, 0 -2px darkred;
+    background-color: #d50000;
+    font-size: 28px;
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 25px;
+    margin-bottom: 15px;
+    padding: 3px;
 }
 
 #winslosses {
-	font-family: 'Luckiest Guy', cursive;
-	border-style: outset;
+    font-family: 'Luckiest Guy', cursive;
+    border-style: outset;
     border-width: 5px;
-	border-color:white;
-	background-color: midnightblue;
-	color:white;
-	font-size:25px;
-	width:7%;
-	float:left;
-	padding: 15px;
-	text-align:center;
-	margin-left:40px;
-	padding-top:60px;
-	padding-bottom:60px;
-	margin-top:150px;
-	line-height:150%;
-	border-radius: 25px;
-	text-shadow: -2px 0 darkred, 0 2px darkred, 2px 0 darkred, 0 -2px darkred;
+    border-color: white;
+    background-color: midnightblue;
+    color: white;
+    font-size: 25px;
+    width: 7%;
+    float: left;
+    padding: 15px;
+    text-align: center;
+    margin-left: 40px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    margin-top: 150px;
+    line-height: 150%;
+    border-radius: 25px;
+    text-shadow: -2px 0 darkred, 0 2px darkred, 2px 0 darkred, 0 -2px darkred;
 }
-
-
 
 #playerScore {
-	font-family: 'Luckiest Guy', cursive;
-	border-style: outset;
+    font-family: 'Luckiest Guy', cursive;
+    border-style: outset;
     border-width: 5px;
-	border-color:white;
-	background-color:midnightblue;
-	color:white;
-	font-size:25px;
-	/*margin-top:20px;
+    border-color: white;
+    background-color: midnightblue;
+    color: white;
+    font-size: 25px;
+    /*margin-top:20px;
 	margin-bottom:40px;*/
-	width:7%;
-	float:right;
-	padding:15px;
-	text-align: center;
-	padding-top:60px;
-	padding-bottom:60px;
-	margin-top:150px;
-	margin-right:40px;
-	line-height:150%;
-	border-radius: 25px;
-	text-shadow: -2px 0 darkred, 0 2px darkred, 2px 0 darkred, 0 -2px darkred;
+    width: 7%;
+    float: right;
+    padding: 15px;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    margin-top: 150px;
+    margin-right: 40px;
+    line-height: 150%;
+    border-radius: 25px;
+    text-shadow: -2px 0 darkred, 0 2px darkred, 2px 0 darkred, 0 -2px darkred;
 }
 
-
-
-
-
 #mylogo {
-	max-height:250px;
-	width:auto;
+    max-height: 250px;
+    width: auto;
 }
 
 .crystals {
-	margin-left:15%;
-	margin-right:15%;
-	position:relative;
-	height:500px;
-	margin-bottom:40px;
-	
+    margin-left: 15%;
+    margin-right: 15%;
+    position: relative;
+    height: 500px;
+    margin-bottom: 40px;
 }
 
 .crystals img {
-	position:absolute;
-	max-height:450px;
-	width:auto;
+    position: absolute;
+    max-height: 450px;
+    width: auto;
 }
 
-
 #redcrystal {
-	
-	
-	max-height:150px;
-	width:auto;
-	/*float: left;*/
-	position:absolute;
-	top:0;
-	left:0;
+    max-height: 150px;
+    width: auto;
+    /*float: left;*/
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
 #yellowcrystal {
-	position:absolute;
-	max-height:150px;
-	width:auto;
-	/*bottom:10px;
+    position: absolute;
+    max-height: 150px;
+    width: auto;
+    /*bottom:10px;
 	left:40%;
 
 */
-bottom:0;
-left:0;
-
+    bottom: 0;
+    left: 0;
 }
 
-
 #bluecrystal {
-right:0;
-top:0;
-max-height:150px;
-	width:auto;
+    right: 0;
+    top: 0;
+    max-height: 150px;
+    width: auto;
 }
 
 #greencrystal {
-	right:0;
-	bottom:0;
-	max-height:150px;
-	width:auto;
+    right: 0;
+    bottom: 0;
+    max-height: 150px;
+    width: auto;
 }
 
 #sonicpic {
-	
-	max-width:100%;
-	height:auto;
-	/*margin-left:300px;*/
-	/*display:block;
+    max-width: 100%;
+    height: auto;
+    /*margin-left:300px;*/
+    /*display:block;
 	margin: 0 auto;*/
-	top:8%;
-	left:38%;
-	
-
-
-
-
-
+    top: 8%;
+    left: 38%;
 }
 
 #footer {
-height:60px;
-font-size:70px;
-font-family: 'Luckiest Guy', cursive;
-color:gold;
-text-align:center;
+    height: 60px;
+    font-size: 70px;
+    font-family: 'Luckiest Guy', cursive;
+    color: gold;
+    text-align: center;
 }
+
+
 /*.emeralds img {
 	max-height:150px;
 	width:auto;
 }*/
 
 @media screen and (max-width: 1100px) {
-
-	#sonicpic {
-		max-height:300px;
-		top:20%;
-	left:33%;
-
-	}
-
-	#winslosses {
-		font-size: 18px;
-	}
-
-	#playerScore {
-		font-size:18px;
-	}
-
-
-
-	
-		#redcrystal {
-			max-height:75px;
-		}
-
-		#bluecrystal {
-			max-height:75px;
-		}
-
-		#yellowcrystal {
-			max-height:75px;
-		}
-
-		#greencrystal {
-			max-height:75px;
-		}
-	}
+    #sonicpic {
+        max-height: 300px;
+        top: 20%;
+        left: 33%;
+    }
+    #winslosses {
+        font-size: 18px;
+    }
+    #playerScore {
+        font-size: 18px;
+    }
+    #redcrystal {
+        max-height: 75px;
+    }
+    #bluecrystal {
+        max-height: 75px;
+    }
+    #yellowcrystal {
+        max-height: 75px;
+    }
+    #greencrystal {
+        max-height: 75px;
+    }
+}
 
 @media screen and (max-width: 700px) {
-	#winslosses {
-		font-size: 14px;
-	}
-
-	#playerScore {
-		font-size:14px;
-	}
-	#sonicpic {
-		max-height:300px;
-		top:20%;
-	left:30%;
-
-	}
+    #winslosses {
+        font-size: 14px;
+    }
+    #playerScore {
+        font-size: 14px;
+    }
+    #sonicpic {
+        max-height: 300px;
+        top: 20%;
+        left: 30%;
+    }
 }
 
 @media screen and (max-width: 600px) {
-	#winslosses {
-		font-size: 12px;
-	}
+    #winslosses {
+        font-size: 12px;
+    }
+    #playerScore {
+        font-size: 12px;
+    }
+    #sonicpic {
+        max-height: 180px;
+        top: 30%;
+        left: 31%;
+    }
+    #giantTitle img {
+        max-width: auto;
+        max-height: 100px;
+    }
+    #footer {
+        font-size: 30px;
+        height: 20px;
+    }
 
-	#playerScore {
-		font-size:12px;
-	}
-	#sonicpic {
-		max-height:180px;
-		top:30%;
-	left:31%;
-
-	}
-
-	#giantTitle img {
-		max-width:auto;
-		max-height:100px;
-	}
+    .crystals {
+    	margin-bottom:15px;
+    }
 }

@@ -169,7 +169,7 @@ max-height:150px;
 	/*display:block;
 	margin: 0 auto;*/
 	top:8%;
-	left:43%;
+	left:38%;
 	
 
 
@@ -179,7 +179,11 @@ max-height:150px;
 }
 
 #footer {
-height:10px;
+height:60px;
+font-size:70px;
+font-family: 'Luckiest Guy', cursive;
+color:gold;
+text-align:center;
 }
 /*.emeralds img {
 	max-height:150px;
